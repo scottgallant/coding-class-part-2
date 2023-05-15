@@ -32,8 +32,11 @@
       #paragraph_3 {
         background: green;
       }
-      p:nth-child(2) {
-        backround: pink;
+      div.parent p:nth-child(2) strong {
+        background: pink;
+      }
+      a {
+        background: white;
       }
     </style>
   </head>
@@ -42,8 +45,17 @@
       <nav>hello</nav>
       <div class="child">
         <p>this has been selected by CSS using the p tag name</p>
+
+        <p>
+          this is a paragraph that contains inline tags like:
+          <a href="#">this is a link (this is an in-line element)</a> and
+          another link to <a href="https://apple.com">Apple</a>
+        </p>
+
         <p class="paragraph_2">
-          this has been selected using a <strong>class</strong> selector
+          this has been selected using a
+          <strong>class</strong> selector...Actually, I was overridden by the
+          nth-child selector
         </p>
         <p id="paragraph_3">this paragraph has been selected using</p>
         <div class="box">box</div>
