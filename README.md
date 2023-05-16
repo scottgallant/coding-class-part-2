@@ -14,4 +14,5 @@ then we added a new pragraph at the begining and added a tags  to show inline
 Set up links, separate pages, and stylesheets. 
 Inline vs block again. 3 boxes. block, then inline. 
 Then talk about padding/margin/w/h/border.
+Show how to center with Margin
 
