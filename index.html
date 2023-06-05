@@ -1,48 +1,15 @@
 <html>
   <head>
-    <style>
-      nav {
-        background: pink;
-      }
-
-      div.parent {
-        display: grid;
-        grid-template-columns: 20% 80%;
-        min-height: 100vh;
-        grid-gap: 20px;
-      }
-
-      div.child {
-        background: gold;
-      }
-      .box {
-        width: 100px;
-        height: 100px;
-        background: yellow;
-        border: 5px solid green;
-        padding: 15px;
-        margin: 15px;
-      }
-      p {
-        background: red;
-      }
-      .paragraph_2 {
-        background: blue;
-      }
-      #paragraph_3 {
-        background: green;
-      }
-      div.parent p:nth-child(2) strong {
-        background: pink;
-      }
-      a {
-        background: white;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="parent">
-      <nav>hello</nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Class 1</a></li>
+          <li><a href="page2.html">Class 2</a></li>
+        </ul>
+      </nav>
       <div class="child">
         <p>this has been selected by CSS using the p tag name</p>
 
