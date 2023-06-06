@@ -4,7 +4,7 @@ nav {
 
 div.parent {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 200px auto;
   min-height: 100vh;
   grid-gap: 20px;
 }
@@ -35,8 +35,10 @@ div.parent p:nth-child(2) strong {
 a {
   text-decoration: none;
 }
+
 nav li {
   list-style-type: none;
+  margin-bottom: 15px;
 }
 
 nav ul {
@@ -50,4 +52,24 @@ nav ul {
   border-style: solid;
   padding: 1rem;
   margin: 2rem;
+}
+
+#spacing-lesson {
+  width: 150px;
+  height: 150px;
+  padding: 100px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.inline-div {
+  display: inline;
+  background-color: purple;
+  color: white;
+}
+
+.bi {
+  margin-right: 10px;
+  margin-left: 10px;
 }
