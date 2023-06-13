@@ -18,5 +18,7 @@ Next class:
 * Click button => alert random num between 0 and 20 but round down
 * Add input for "name" 
 * Click button => alert "name is cool"
-* Play with Dom object. Append p
-* Click button and updated DOM
+* Play with Dom object. Append p to DOM
+* Discuss methods and properties
+* Click button and updated DOM 
+* Create Mad Lib
