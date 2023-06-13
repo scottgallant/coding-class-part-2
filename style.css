@@ -62,6 +62,7 @@ nav ul {
   margin-top: 25px;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
 }
 
 #spacing-lesson .round {
