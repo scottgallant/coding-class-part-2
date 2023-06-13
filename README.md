@@ -9,7 +9,8 @@ Today we covered:
 
 
 Next class: 
-* Make sure we link to javascript on all pages (and remove SVGs from javascript.html since it's messing up the code highlighting)
+* Make sure we link to javascript.html from all pages (and remove SVGs from javascript.html since it's messing up the code highlighting)
+* Let's break out the Script tag to it's own file (like we did with style.css)
 * Go over functions.  What are they "a chunk of code to do a task". What is the syntax. 
 * Click button => alert "warning"
 * Explain variables. A var is a box. It just contains things. It can hold a number. Some text. And other things. 
