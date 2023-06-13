@@ -9,6 +9,7 @@ Today we covered:
 
 
 Next class: 
+* Make sure we link to javascript on all pages (and remove SVGs from javascript.html since it's messing up the code highlighting)
 * Go over functions.  What are they "a chunk of code to do a task". What is the syntax. 
 * Click button => alert "warning"
 * Explain variables. A var is a box. It just contains things. It can hold a number. Some text. And other things. 
