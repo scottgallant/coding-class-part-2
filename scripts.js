@@ -9,6 +9,9 @@ function doSomethingCool() {
   // var y = Math.floor(x);
   // alert(y);
 
+  // Document object
+  // more methods and properties
+  // concatenation
   // var name = document.querySelector('#name').value;
   // alert(name + ' Is Cool');
 
