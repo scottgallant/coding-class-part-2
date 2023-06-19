@@ -3,6 +3,8 @@ function doSomethingCool() {
 
   // var x = "warning via var";
 
+  // special objects like Math
+  // methods and properties
   // var x = Math.random() * 10;
   // var y = Math.floor(x);
   // alert(y);
